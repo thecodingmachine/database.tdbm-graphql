@@ -1,0 +1,35 @@
+{
+    "name": "mouf/database.tdbm-graphql",
+    "description": "A binding package between thecodingmachine/tdbm-graphql and the Mouf framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Négrier",
+            "email": "d.negrier@thecodingmachine.com"
+        }
+    ],
+    "keywords" : [
+        "ORM",
+        "mouf",
+        "graphql"
+    ],
+    "type" : "mouf-library",
+    "require": {
+        "thecodingmachine/tdbm-graphql": "^1.0",
+        "mouf/mouf": "^2.0",
+        "mouf/security.rightsservice": "^2",
+        "mouf/security.userservice": "^2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mouf\\Tdbm\\GraphQL\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
