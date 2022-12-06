@@ -18,8 +18,8 @@
         "php": "^8.0",
         "thecodingmachine/tdbm-graphql": "^5.0",
         "mouf/mouf": "^2.0",
-        "mouf/security.rightsservice": "^2",
-        "mouf/security.userservice": "^2"
+        "mouf/security.rightsservice": "^3.0",
+        "mouf/security.userservice": "^3.0"
     },
     "autoload": {
         "psr-4": {
@@ -35,7 +35,8 @@
     "prefer-stable": true,
     "config": {
         "allow-plugins": {
-            "mouf/mouf-installer": true
+            "mouf/mouf-installer": true,
+            "mindplay/composer-locator": true
         }
     }
 }
